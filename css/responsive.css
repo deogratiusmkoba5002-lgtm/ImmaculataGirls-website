@@ -107,3 +107,46 @@
   }
 }
 
+
+/* === MOBILE NAV === */
+.menu-toggle{
+    display: none;
+}
+
+@media (max-width: 900px){
+    .page-header nav{
+        flex-wrap: wrap;
+    }
+    .menu{
+        display: none;
+        width: 100%;
+        order: 3;
+    }
+    .menu.is-open{
+        display: block;
+    }
+    .menu ul{
+        flex-direction: column;
+        gap: 0;
+        padding: 10px 0;
+    }
+    .menu ul li{
+        border-top: 1px solid rgba(255,255,255,.1);
+    }
+    .menu a{
+        display: block;
+        padding: 14px 4px;
+    }
+    .action{
+        order: 2;
+        margin-left: auto;
+    }
+    .nav-cta{
+        padding: 8px 16px;
+        font-size: .8rem;
+    }
+    .menu-toggle{
+        display: block;
+        order: 4;
+    }
+}
