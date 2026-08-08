@@ -23,6 +23,8 @@ if (welcomeBtn && welcomeScreen && website && leftCurtain && rightCurtain) {
   } else {
     // FIRST VISIT THIS SESSION
     welcomeBtn.addEventListener("click", () => {
+      //MARK AS VISITED SO CURTAIN DOESN'T REPLAY THIS SESSION
+      sessionStorage.setItem("visited","true");
       // CLOSE CURTAINS
       leftCurtain.style.animation = "curtainCloseLeft .7s forwards";
       rightCurtain.style.animation = "curtainCloseRight .7s forwards";

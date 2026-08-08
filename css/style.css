@@ -541,7 +541,8 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .facility-card:hover{
-    transform: translateY(-4px);
+    transform: translateY(-8px);
+    transition: transform .3s ease;
 }
 
 .facility-card h3{

@@ -36,6 +36,63 @@
   .facilities-grid{
     grid-template-columns: 1fr;
   }
+  /* image placeholders -shorter and kufaa kwa simu*/
+  .image-placeholder{
+    height: 260px;
+    border-radius: 14px;
+  }
+  .history-photo .image-placeholder{
+    height: 300px;
+  }
+  .admissions-photo .image-placeholder,
+  .site-hero-image .image-placeholder,
+  .academics-photo .image-placeholder,
+  .student-life-image .image-placeholder{
+    height: 260px;
+  }
+  .facility-card .image-placeholder{
+    height: 180px;
+  }
+
+  /* tighter section padding on phones*/
+  #about,
+  #academics,
+  #facilities,
+  #student-life,
+  #admissions,
+  #gallery{
+    padding: 60px 6%;
+  }
+
+  .about-intro h2,
+  .academics-intro h2,
+  .facilities-intro h2,
+  .student-life-text h2,
+  .admissions-content h2,
+  .gallery-container h2{
+    font-size: 1.8rem;
+  }
+  /* header - shrink logo/title so it fits one line on phones*/
+  .page-header nav{
+    padding: 10px 4%;
+  }
+  .school-logo-header img{
+    height: 34px;
+    width: 34px;
+  }
+  .school-name-header h1{
+    font-size: .72rem;
+    line-height: 1.3;
+  }
+  /* footer - collapse to one column and tighten padding on phones */
+  footer{
+    padding: 40px 6% 16px;
+  }
+  .footer-container{
+    grid-template-columns: 1fr;
+    gap: 24px;
+    margin-bottom: 24px;
+  }
 }
 
 @media (max-width: 480px){
@@ -49,3 +106,4 @@
     font-size: 1.9rem;
   }
 }
+
