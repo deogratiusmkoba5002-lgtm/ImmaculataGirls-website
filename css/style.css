@@ -11,6 +11,12 @@
     --white: #FFFFFF;
     --navy: var(--dark);
     --blue: var(--secondary-dark);
+    --accent-blue: #1d4ed8;
+    --accent-red: #dc2626;
+    --accent-yellow: #f59e0b;
+    --accent-blue-light: #dbeafe;
+    --accent-red-light: #fee2e2;
+    --accent-yellow-light: #fef3c7;
 }
 
 body {
@@ -351,6 +357,32 @@ h6 {
 }
 
 /*=== HEADER/NAV ===*/
+
+.badge {
+    display: inline-block;
+    padding: 5px 14px;
+    border-radius: 50px;
+    font-size: .75rem;
+    font-weight: 700;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+}
+
+.badge-blue {
+    background: var(--accent-blue-light);
+    color: var(--accent-blue);
+}
+
+.badge-red {
+    background: var(--accent-red-light);
+    color: var(--accent-red);
+}
+
+.badge-yellow {
+    background: var(--accent-yellow-light);
+    color: var(--accent-yellow);
+}
+
 .page-header {
     background: var(--dark);
     position: sticky;
