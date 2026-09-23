@@ -1,77 +1,89 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Academics | Immaculata Girls' Model Secondary School</title>
 
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/animations.css">
-    <link rel="stylesheet" href="css/responsive.css">
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Academics | Immaculata Girls' Model Secondary School</title>
 
-  <body class = "body">
-    <div id = "website">
-      <header class = "page-header">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body class="body">
+  <div id="website">
+    <header class="page-header">
       <nav>
-        <div class = "school-logo-header">
-          <img src = "assets/images/logo/IMMACULATA GIRLS SCHOOL BADGE.jpg" alt="Immaculata Girls' Model Secondary School crest">
+        <div class="school-logo-header">
+          <img src="assets/images/logo/IMMACULATA GIRLS SCHOOL BADGE.jpg"
+            alt="Immaculata Girls' Model Secondary School crest">
         </div>
-        <div class = "school-name-header">
+        <div class="school-name-header">
           <h1>IMMACULATA GIRLS' MODEL SECONDARY SCHOOL</h1>
         </div>
 
-        <div class = "menu">
+        <div class="menu">
           <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="academics.html">Academics</a></li>
-            <li><a href="facilities.html">Facilities</a></li>
-            <li><a href="student-life.html">Student Life</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="admissions.html">Admissions</a></li>
-
+            <li><a href="index.html" data-en="Home" data-sw="Nyumbani"></a></li>
+            <li><a href="about.html" data-en="About" data-sw="Kuhusu"></a></li>
+            <li><a href="academics.html" data-en="Academics" data-sw="Taaluma"></a></li>
+            <li><a href="facilities.html" data-en="Facilities" data-sw="Huduma"></a></li>
+            <li><a href="student-life.html" data-en="Student Life" data-sw="Maisha ya Wanafunzi"></a></li>
+            <li><a href="gallery.html" data-en="Gallery" data-sw="Picha"></a></li>
+            <li><a href="admissions.html" data-en="Admissions" data-sw="Udahili"></a></li>
           </ul>
         </div>
         <button class="lang-toggle" id="lang-toggle" aria-label="Switch language">SW</button>
-        <button class="menu-toggle" id = "menu-toggle" aria-label="Toggle menu">≡</button>
+        <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">≡</button>
       </nav>
-      </header>
+    </header>
 
-      <main>
-        <section id = "academics">
-          <div class = "academics-container">
-            <div class = "academics-intro reveal">
-              <span class = "section-label"> WHAT WE TEACH</span>
-              <h2>Academic Programs</h2>
-              <p>
-                Our Curriculum follows the national O-level syllabus, giving
-                every student a broad academic foundation before she specializes
-                in her area of strength.
+    <main>
+      <section id="academics">
+        <div class="academics-container">
+          <div class="academics-intro reveal">
+            <span class="section-label" data-en="WHAT WE TEACH" data-sw="TUNACHOFUNDISHA"></span>
+            <h2 data-en="Academic Programs" data-sw=""></h2>
+            <p data-en="
+              Our Curriculum follows the national O-level syllabus, giving
+              every student a broad academic foundation before she specializes
+              in her area of strength."
+               data-sw=""
+            >   
+            </p>
+          </div>
+          <div class="academics-grid reveal">
+            <div class="academic-card">
+              <h3 data-en="Science Subjects" data-sw="Masomo ya Sayansi"></h3>
+              <p data-en="Physics, Chemistry, Biology and Mathematics, taught with an emphasis on practical laboratory work."
+                 data-sw=""
+              ></p>
+            </div>
+            <div class="academic-card">
+              <h3 data-en="Business Subjects" data-sw="Masomo ya Biashara"></h3>
+              <p data-en="Commerce, Bookkeeping and Business Studies, preparing students for both further study and enterprise."
+                 data-sw=""
+              >
               </p>
             </div>
-            <div class="academics-grid reveal">
-              <div class="academic-card">
-                <h3>Science Subjects</h3>
-                <p>Physics, Chemistry, Biology and Mathematics, taught with an emphasis on practical laboratory work.</p>
-              </div>
-              <div class="academic-card">
-                <h3>Business Subjects</h3>
-                <p>Commerce, Bookkeeping and Business Studies, preparing students for both further study and enterprise.</p>
-              </div>
-              <div class="academic-card">
-                <h3>Arts Subjects</h3>
-                <p>English, Kiswahili, Literature, History, Geography, building critical thinking and communication skills.</p>
-              </div>
-            </div>
-            <div class="academics-photo reveal">
-              <div class="image-placeholder">
-                <img class="academics-img" src="assets/images/facilities/IMG-20260724-WA0025.jpg">
-              </div>
+            <div class="academic-card">
+              <h3 data-en="Arts Subjects" data-sw="Masomo ya Sanaa"></h3>
+              <p data-en="English, Kiswahili, Literature, History, Geography, building critical thinking and communication
+                skills."
+                 data-sw=""
+              >
+              </p>
             </div>
           </div>
-        </section>
-      </main>
+          <div class="academics-photo reveal">
+            <div class="image-placeholder">
+              <img class="academics-img" src="assets/images/facilities/IMG-20260724-WA0025.jpg">
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
     <footer>
       <div class="footer-container">
@@ -80,16 +92,16 @@
           <p>Fukayosi, Bagamoyo District, Tanzania</p>
         </div>
         <div class="footer-col">
-          <h4>Quick Links</h4>
+          <h4 data-en="Quick Links" data-sw="Viungo vya Haraka"></h4>
           <ul>
-            <li><a href="about.html">About</a></li>
-            <li><a href="academics.html">Academics</a></li>
-            <li><a href="admissions.html">Admissions</a></li>
+            <li><a href="about.html" data-en="About" data-sw="Kuhusu"></a></li>
+            <li><a href="academics.html" data-en="Academics" data-sw="Taaluma"></a></li>
+            <li><a href="admissions.html" data-en="Admissions" data-sw="Udahili"></a></li>
 
           </ul>
         </div>
         <div class="footer-col">
-          <h4>Contact</h4>
+          <h4 data-en="Contact" data-sw="Mawasiliano"></h4>
           <p>email to be given</p>
           <p>phone number to be given</p>
         </div>
@@ -98,9 +110,10 @@
         <p>&copy; 2026 Immaculata Girls' Model Secondary School. All rights reserved.</p>
       </div>
     </footer>
-    </div><!-- closes #website -->
+  </div><!-- closes #website -->
 
-    <script src = "js/script.js"></script>
-    <script src = "js/lang.js"></script>
-  </body>
+  <script src="js/script.js"></script>
+  <script src="js/lang.js"></script>
+</body>
+
 </html>
